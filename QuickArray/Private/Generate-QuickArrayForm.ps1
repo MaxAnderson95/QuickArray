@@ -34,8 +34,7 @@ Function Generate-QuickArrayForm {
 
     $buttonSubmit.Add_Click({ 
 
-        $global:quickArrayInput = $textBoxMain.Text
-        $formMain.Close()
+        Submit-QuickArrayForm
 
      })
 
