@@ -2,7 +2,7 @@
 A PowerShell function that is used to create a quick and dirty array from a paste of text. It takes data separated by line breaks, and outputs an array, containing one index per line.
 
 ## Why?
-While not very usefull for a script, if you're working in a prompt and are given some raw data that you need to run a command on, this makes it simple to get that data into your prompt, without the need to save the data into a file and use `Get-Content` to import the data, or using the `@()` array syntax inline.
+While not very usefull for a script, if you're working in a prompt and are given some raw data that you need to run a command on, this makes it simple to get that data into your prompt, without the need to save the data into a file and use `Get-Content` to import the data, or use the `@()` array syntax inline.
 
 ## Installation
 Via the PowerShell Gallery on PowerShell 5.0 and up (Recommended):
